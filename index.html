@@ -36,20 +36,27 @@
             </div>
         </header>
         <div id="visual">
-            <input type="radio" style="position: absolute; z-index: 200;" name="slidebtn" id="slide-1"  checked="">
-            <input type="radio" style="position: absolute; left: 20px; z-index: 200;" name="slidebtn" id="slide-2" >
-            <input type="radio" style="position: absolute; left: 50px; z-index: 200;" name="slidebtn" id="slide-3" >
-            <input type="radio" style="position: absolute; left: 80px; z-index: 200;" name="slidebtn" id="slide-4">
-            <input type="radio" style="position: absolute; left: 110px; z-index: 200;" name="slidebtn" id="slide-5" >
-            <input type="radio" style="position: absolute; left: 130px; z-index: 200;" name="slidebtn" id="slide-6" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-1" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-2" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-3" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-4" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-5" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-6" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-7" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-8" >
+            <input type="radio" name="slidebtn" hidden="hidden" id="slide-9" >
             
             <div id="slide">
-                <img src="images/slide1.jpg" class="slide_img" id="slide_img1" alt="slide_img1">
                 <img src="images/slide2.jpg" class="slide_img" id="slide_img2" alt="slide_img2">
                 <img src="images/slide3.jpg" class="slide_img" id="slide_img3" alt="slide_img3">
+                <img src="images/slide1.jpg" class="slide_img" id="slide_img1" alt="slide_img1">
             </div>
             <div id="slide_word">
                 <div class="slide_word_box" id="slide1_word_box">
+                    <h2>여러분을 <span>와일드</span>한<br><span>추억</span>으로 초대합니다</h2>
+                    <div id="slide1_word_box_bar"></div>
+                    <p>완주에서 나고 자한 신선한 농산물을 재료로한<br>와일드한 음식과 푸짐한 볼거리,이색적인 즐거리가 있는<br>완주와일드푸드 축제로 오세요!</p>
+                    <button class="read_more">바로 가기</button>
                 </div>
                 <div class="slide_word_box" id="slide2_word_box">
                 </div>
@@ -57,15 +64,15 @@
                 </div>
             </div>
             <div id="slide_link">
-                <button class="slide_link_btn" id="slide_link1"></button>
-                <button class="slide_link_btn" id="slide_link2"></button>
-                <button class="slide_link_btn" id="slide_link3"></button>
+                <label for="slide-7" class="slide_link_btn" id="slide_link1"></label>
+                <label for="slide-8" class="slide_link_btn" id="slide_link2"></label>
+                <label for="slide-9" class="slide_link_btn" id="slide_link3"></label>
             </div>
 
             <div id="slide_button_box">
-                    <label for="slide-5" data-idx="1" class="slide_btn slide_left"><i class="fas fa-chevron-left"></i></label>
-                    <label for="slide-4" data-idx="2" class="slide_btn slide_left"><i class="fas fa-chevron-left"></i></label>
-                    <label for="slide-5" data-idx="3" class="slide_btn slide_left"><i class="fas fa-chevron-left"></i></label>
+                    <label for="slide-4" data-idx="1" class="slide_btn slide_left"><i class="fas fa-chevron-left"></i></label>
+                    <label for="slide-5" data-idx="2" class="slide_btn slide_left"><i class="fas fa-chevron-left"></i></label>
+                    <label for="slide-6" data-idx="3" class="slide_btn slide_left"><i class="fas fa-chevron-left"></i></label>
 
                     <label for="slide-1" data-idx="3" class="slide_btn slide_right"><i class="fas fa-chevron-right"></i></label>
                     <label for="slide-2" data-idx="1" class="slide_btn slide_right"><i class="fas fa-chevron-right"></i></label>
